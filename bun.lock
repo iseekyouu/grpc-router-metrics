@@ -4,7 +4,6 @@
     "": {
       "name": "grpc-prisma-metrics",
       "dependencies": {
-        "grpc-router-metrics": "^1.0.0",
         "prom-client": "^15.1.3",
       },
       "devDependencies": {
@@ -27,8 +26,6 @@
     "bintrees": ["bintrees@1.0.2", "", {}, "sha512-VOMgTMwjAaUG580SXn3LacVgjurrbMme7ZZNYGSSV7mmtY6QQRh0Eg3pwIcntQ77DErK1L0NxkbetjcoXzVwKw=="],
 
     "bun-types": ["bun-types@1.2.3", "", { "dependencies": { "@types/node": "*", "@types/ws": "~8.5.10" } }, "sha512-P7AeyTseLKAvgaZqQrvp3RqFM3yN9PlcLuSTe7SoJOfZkER73mLdT2vEQi8U64S1YvM/ldcNiQjn0Sn7H9lGgg=="],
-
-    "grpc-router-metrics": ["grpc-router-metrics@1.0.0", "", { "dependencies": { "prom-client": "^15.1.3" }, "peerDependencies": { "typescript": "^5.0.0" } }, "sha512-3QkZZSMPiWf4xRQy6YYaMS+EfhjGWfXY8ijAKWtJccbabZJh0fr+1vNehOQ/WZE/Ncs3Jiw/gULD8LzQzi9UMQ=="],
 
     "prom-client": ["prom-client@15.1.3", "", { "dependencies": { "@opentelemetry/api": "^1.4.0", "tdigest": "^0.1.1" } }, "sha512-6ZiOBfCywsD4k1BN9IX0uZhF+tJkV8q8llP64G5Hajs4JOeVLPCwpPVcpXy3BwYiUGgyJzsJJQeOIv7+hDSq8g=="],
 
